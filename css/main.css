@@ -1,0 +1,406 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+}
+
+/*Agregando imagen de fondo*/
+
+.backgroundimg {
+  height: 543px;
+  width: auto;
+  background-image: url(../assets/images/hero.gif);
+  background-size: 100%;
+}
+
+/* Ordenando el menu superior*/
+
+nav {
+  width: auto;
+  height: 112px;
+  top: auto;
+}
+
+.containernav {
+  padding: 60px 188px 1px 87px;
+  font-weight: lighter;
+}
+
+.logolyft {
+  width: 72px;
+  height: 50px;
+  padding-top: 30px;
+  background-image: url(../assets/images/logo-white.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float:left;
+
+}
+
+.login {
+  width: 98px;
+  height: 47px;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  background-color: red;
+  float: right;
+}
+
+.containbuttons {
+  color: #FFFFFF;
+  font-weight: lighter;
+  width: 240px;
+  height: 20px;
+  font-size: 17px;
+  float: right;
+  outline: 2px solid white;
+  margin-top: 30px;
+}
+
+.drive {
+  display: inline-block;
+}
+
+.explore {
+  display: inline-block;
+}
+
+.help {
+  display: inline-block;
+}
+
+/*deshabilitando los elementos de posicionamiento presentes*/
+
+.clear {
+  clear: both;
+}
+
+/*Editando caja blanca de la izquierda*/
+
+.signup {
+  width: 530px;
+  height: 400px;
+  padding-top: 30px;
+  float: right;
+}
+
+.containersu {
+  background-color: #FFFFFF;
+  height: 400px;
+  width: 530px;
+}
+
+.title1 {
+  width: 265px;
+  height: 71px;
+  padding: 55px 190px 10px 60px;
+  font-weight: 500;
+  font-size: 38px;
+  color: #352384;
+  line-height: 38px;
+  display: block;
+}
+
+.desc {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #352384;
+  margin: 8px 230px 30px 60px;
+}
+
+.phone {
+  width: 426px;
+  height: auto;
+  color: #728099;
+  font-size: 14px;
+  padding-left: 60px;
+}
+
+.line {
+  height: 2px;
+  width: 434px;
+  border: none;
+  margin-left: 60px;
+  background-color: #3A2B81;
+}
+
+.button1 {
+  width: 140px;
+  height: 25px;
+  font-weight: 200;
+  font-size: 15px;
+  background-color: #FF00BF;
+  border-radius: 6px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin: 32px 25px 30px 60px;
+  padding: 15px 10px 10px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.signupl {
+  color: #728099;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.littletxt1 {
+  color: #728099;
+  font-size: 9px;
+  margin-left: 60px;
+  margin-bottom: 7px;
+}
+
+.littletxt2 {
+  color: #728099;
+  font-size: 9px;
+  margin-left: 60px;
+  margin-top: 7px;
+}
+
+/*Modificando la seguna sección*/
+
+.gradient {
+  width: auto;
+  height: 642px;
+  background: linear-gradient(#76278F, #2B1E66);
+}
+
+.cellimg {
+  height: 540px;
+  width: 520px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../assets/images/phone.png);
+  float: right;
+  margin-top: 75px;
+  margin-right: 155px;
+}
+
+
+.descriptionimg {
+  width: 447px;
+  height: 443px;
+  margin-left: 145px;
+  padding-top: 85px;
+  color: #FFFFFF;
+}
+
+.title{
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+.description{
+  font-size: 15px;
+  margin-bottom: 70px;
+  font-weight: 100;
+}
+
+.title-3{
+  font-size: 26px;
+  margin-bottom: 22px;
+  width: 245px;
+  height: 65px;
+}
+
+/*Sección de videos*/
+/*Dándole altura a la sección de videos*/
+.videos {
+  height: 1500px;
+  width: auto;
+}
+/*Modificando las cajas y textos*/
+.boxtext{
+  width: 456px;
+  height: 500px;
+  float: left;
+}
+
+.littletitle{
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-left: 55px;
+}
+
+.wtitle{
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 2px;
+  padding-left: 55px;
+}
+
+.wtext{
+  font-size: 15.5px;
+  font-weight:normal;
+  line-height: 22px;
+  padding: 30px 65px 50px 55px;
+}
+
+
+.littletitle2{
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+.wtitle2{
+  font-size: 28px;
+  font-weight: 500;
+  padding-top: 2px;
+  padding-left: 60px;
+}
+
+.wtext2{
+  font-size: 15.5px;
+  font-weight:normal;
+  line-height: 22px;
+  padding: 30px 65px 50px 60px;
+}
+
+.boxwatch{
+  width: 800px;
+  height: 500px;
+  float: left;
+}
+
+/*Modificando footer*/
+footer{
+  background-color: #333447;
+  color: #FFFFFF;
+  width: auto;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.columns{
+  width: auto;
+  height:230px;
+  margin-left: 115px;
+  margin-right: 115px;
+}
+
+.fc, .sc, .tc{
+  width: 145px;
+  margin-right: 110px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.tf{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.tc{
+  font-weight:100;
+  font-size: 15px;
+}
+
+.foc{
+  width: 145px;
+  height: 200px;
+  margin-top: 22px;
+  float: left;
+
+}
+
+.appstore{
+  width: 136px;
+  height: 42px;
+  margin-bottom: 35px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-image: url(../assets/images/apple-store.svg);
+}
+
+.googlep{
+  width: 136px;
+  height: 42px;
+  margin-bottom: 35px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-image: url(../assets/images/google-play.png);
+}
+
+.microsoft{
+  width: 136px;
+  height: 50px;
+  margin-bottom: 35px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-image: url(../assets/images/microsoft.png);
+}
+
+.clear {
+  clear: both;
+}
+
+.rscr{
+  width: 100%;
+  height: 135px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.fbc{
+  width: 30px;
+  height: 30px;
+  margin-right: 33px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fa-facebook{
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.instac{
+  width: 30px;
+  height: 30px;
+  margin-right: 33px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fa-instagram{
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.twitterc{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.fa-twitter{
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.line2{
+  width: 767px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  border: none;
+}
+
+.copyright{
+  font-weight: lighter;
+  font-size: 15px;
+}
