@@ -19,9 +19,9 @@
 
 	1. **Div class="backgroundimg":** Comienza con este *div* *backgroundimg*, el cual por medio de css contiene la primera imagen de fondo y también anida *nav* y a la primera *section* llamada *"signup"*.
 
-       		a. **Nav:** tiene todos sus elementos englobados en un *div* llamado *"containernav"*, el cual contiene tres div que son los siguientes: *logolyft* (contiene el logo que está situado en la esquina superior izquierda), *containbuttons* (contenedor de los botones situados en la esquina superior derecha: Drive, Explore y Help) y el botón de *Log In*.
-	  
-	  	b. **Section class= "signup":** contiene un *div containersu* que anida todos los elementos de esta sección (*div que contienen texto, form, input, hr, button y etiquetas ancore*).
+		a. **nav:** tiene todos sus elementos englobados en un *div* llamado *"containernav"*, el cual contiene tres div que son los siguientes: *logolyft* (contiene el logo que está situado en la esquina superior izquierda), *containbuttons* (contenedor de los botones situados en la esquina superior derecha: Drive, Explore y Help) y el botón de *Log In*.
+
+		b. **Section class= "signup":** contiene un *div containersu* que anida todos los elementos de esta sección (*div que contienen texto, form, input, hr, button y etiquetas ancore*).
 
 	2. **Section class="gradient":** esta sección, contiene en su background el fondo de gradiente de la página, además de dos *div* principales: el primero *descriptionimg*, el cual contiene todos los títulos y párrafos que van situados a la derecha de la imagen. El segundo *div class="cellimg"* contiene la imagen del celular con la app en uso.
 
