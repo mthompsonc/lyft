@@ -1,92 +1,40 @@
 # Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+** Este es un proyecto de maquetado web con HTML & CSS. **
 
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+#### Trabajo realizado por:
+ "María Paz Thompson" <m.paz.thompson@gmail.com>
 
-## Flujo de trabajo
+*29 de Octubre 2017*
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+***
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+### Pseudo-Código.
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
+ - Head está compuesto por el título del proyecto y enlaces a: *google fonts, icomoon y stylesheet*.
 
-## Objetivo
+ -  Body, cuenta con etiquetas *div* (que contienen las imágenes de fondo), *section y footer*, que anidan el contenido de cada sección:
 
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+	1. **Div class="backgroundimg":** Comienza con este *div* *backgroundimg*, el cual por medio de css contiene la primera imagen de fondo y también anida *nav* y a la primera *section* llamada *"signup"*.
 
-![Lyft Website](docs/fullpage.png)
+       	  a. **Nav:** tiene todos sus elementos englobados en un *div* llamado *"containernav"*, el cual contiene tres div que son los siguientes: *logolyft* (contiene el logo que está situado en la esquina superior izquierda), *containbuttons* (contenedor de los botones situados en la esquina superior derecha: Drive, Explore y Help) y el botón de *Log In*.
 
-## Consideraciones
+		  b. **Section class= "signup":** contiene un *div containersu* que anida todos los elementos de esta sección (*div que contienen texto, form, input, hr, button y etiquetas ancore*).
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+	2. **Section class="gradient":** esta sección, contiene en su background el fondo de gradiente de la página, además de dos *div* principales: el primero *descriptionimg*, el cual contiene todos los títulos y párrafos que van situados a la derecha de la imagen. El segundo *div class="cellimg"* contiene la imagen del celular con la app en uso.
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
+   3. **Section class="videos":** anida 3 *div* principales: *textvideo1, textvideo2, textvideo3*. todas contienen un título pequeño, un título grande, un párrafo y un video incorporado con un *iframe* desde youtube, cada *div* con un orden diferente.
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+    4. **Footer:** tiene bastante información, por lo que lo designé en dos secciones para poder organizar los elementos.
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+		a. **Section class="columns":** dispone de 3 *div* (que contienen 5 *etiquetas ancore* cada uno) y un *div* que tiene los logos de AppStore, Google Play y Microsoft (cada uno con su correspondiente enlace de descarga).
+		b.**Section class="rscr":** esta sección contiene las redes sociales (con íconos de *icomoon* y un div para el círculo), un *hr* y texto de *copyrights*.
 
-* Esta web utiliza la tipografía `Montserrat`.
+Cabe mencionar que cada etiqueta HTML, tiene una clase que está modificada mediante una hoja de estilo CSS.
+***
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
+La página original de esta maqueta está en la siguiente imagen.
 
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
-
-  ![Lyft - Footer](docs/footer.gif)
-
-  Además, los íconos deberás obtenerlo de `Icomoon`.
-
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
-
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
-
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
-
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+![Alt text](https://image.ibb.co/kHdq6R/fullpage.png)

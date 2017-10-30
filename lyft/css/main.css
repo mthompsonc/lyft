@@ -14,77 +14,59 @@ body {
   width: auto;
   background-image: url(../assets/images/hero.gif);
   background-size: 100%;
-  background-position: 0;
+  background-position: top;
 }
 
 /* Ordenando el menu superior*/
 
 nav {
-  width: 100%;
+  width: auto;
   height: 112px;
   top: auto;
-  position: fixed;
-  background:  linear-gradient(rgba(0, 0, 0, 0.41), rgba(44, 44, 45, 0));
 }
 
 .containernav {
-  width: 100%;
-  padding: 30px 100px 1px 76px;
+  padding: 60px 188px 1px 87px;
   font-weight: lighter;
 }
 
-.logolyft{
+.logolyft {
   width: 72px;
   height: 50px;
+  padding-top: 30px;
   background-image: url(../assets/images/logo-white.png);
   background-repeat: no-repeat;
-  background-size: 90%;
-  display: inline-block;
-  margin-right: 593px;
+  background-size: 100%;
+  float:left;
+
 }
-.logolyft:hover{
-  background-image: url(../assets/images/logo-pink.png);
-  background-repeat: no-repeat;
-  background-size: 90%;
+
+.login {
+  width: 98px;
+  height: 47px;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+  background-color: red;
+  float: right;
 }
 
 .containbuttons {
+  color: #FFFFFF;
   font-weight: lighter;
   width: 240px;
   height: 20px;
   font-size: 17px;
-  margin-top: 15px;
-  display: inline-block;
+  float: right;
+  outline: 2px solid white;
+  margin-top: 30px;
 }
 
-.login {
-  width: 90px;
-  height: 40px;
-  display: inline-block;
-  line-height: 2.5;
-  border: 1px solid #FFFFFF;
-  border-radius: 10px;
-  text-align: center;
-}
-
-
-.linkw{
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.linkw:hover{
-  color: #FF00BF;
-  text-decoration: none;
-}
 .drive {
   display: inline-block;
-  margin-right: 35px;
 }
 
 .explore {
   display: inline-block;
-  margin-right: 20px;
 }
 
 .help {
@@ -97,18 +79,16 @@ nav {
   clear: both;
 }
 
-/*Editando caja blanca de la derecha*/
+/*Editando caja blanca de la izquierda*/
 
 .signup {
   width: 530px;
   height: 400px;
-  margin-top: 115px;
   padding-top: 30px;
   float: right;
 }
 
 .containersu {
-  z-index: 1;
   background-color: #FFFFFF;
   height: 400px;
   width: 530px;
@@ -135,39 +115,13 @@ nav {
 .phone {
   width: 426px;
   height: auto;
-  color: #bdbdbd;
-
+  color: #728099;
   font-size: 14px;
   padding-left: 60px;
-  border-color: none;
-  border: none;
 }
 
-input[type=tel] {
-  font-family: "Montserrat";
-  font-size: 14px;
-  color:#728099;
-    appearance:none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -o-appearance: none;
-    -webkit-inner-spin-button:none;
-    border: none;
-  bottom: none;
-    -webkit-outer-spin-button:none;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input[type=number] { -moz-appearance:textfield; }
-
-
-.line1{
-  height: 1px;
+.line {
+  height: 2px;
   width: 434px;
   border: none;
   margin-left: 60px;
@@ -194,21 +148,12 @@ input[type=number] { -moz-appearance:textfield; }
   font-size: 15px;
   font-weight: 200;
 }
-.signupl:hover{
-  color:#FF00BF;
-}
 
 .littletxt1 {
   color: #728099;
   font-size: 9px;
   margin-left: 60px;
   margin-bottom: 7px;
-}
-.pinkl{
-  color: #728099;
-}
-.pinkl:hover{
-  color:#FF00BF;
 }
 
 .littletxt2 {
@@ -218,18 +163,25 @@ input[type=number] { -moz-appearance:textfield; }
   margin-top: 7px;
 }
 
-.clear {
-  clear: both;
-}
-
-
 /*Modificando la seguna sección*/
 
 .gradient {
   width: auto;
-  height: 595px;
-  background: linear-gradient(#661E79, #2B1E66);
+  height: 642px;
+  background: linear-gradient(#76278F, #2B1E66);
 }
+
+.cellimg {
+  height: 540px;
+  width: 520px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../assets/images/phone.png);
+  float: right;
+  margin-top: 75px;
+  margin-right: 155px;
+}
+
 
 .descriptionimg {
   width: 447px;
@@ -237,23 +189,11 @@ input[type=number] { -moz-appearance:textfield; }
   margin-left: 145px;
   padding-top: 85px;
   color: #FFFFFF;
-  display: inline-block;
-}
-
-.cellimg {
-  height: 540px;
-  width: 520px;
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-image: url(../assets/images/phone.png);
-  margin-top: -470px;
-  margin-left: 650px;
-  display: inline-block;
 }
 
 .title{
   font-size: 26px;
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 }
 
 .description{
@@ -267,10 +207,6 @@ input[type=number] { -moz-appearance:textfield; }
   margin-bottom: 22px;
   width: 245px;
   height: 65px;
-}
-
-.clear {
-  clear: both;
 }
 
 /*Sección de videos*/
@@ -338,11 +274,11 @@ input[type=number] { -moz-appearance:textfield; }
 /*Modificando footer*/
 footer{
   background-color: #333447;
+  color: #FFFFFF;
   width: auto;
   height: 400px;
   padding-top: 60px;
   padding-bottom: 50px;
-  color: #FFFFFF;
 }
 
 .columns{
@@ -350,10 +286,9 @@ footer{
   height:230px;
   margin-left: 115px;
   margin-right: 115px;
-  color: #FFFFFF;
 }
 
-.fc, .sc, .thc{
+.fc, .sc, .tc{
   width: 145px;
   margin-right: 110px;
   margin-top: 15px;
@@ -362,21 +297,12 @@ footer{
 }
 
 .tf{
-  margin-bottom: 30px;
-}
-.linkwt{
   font-size: 18px;
-  color: #ffffff;
-  text-decoration: none;
+  margin-bottom: 10px;
 }
-.linkwt:hover{
-  text-decoration: underline;
-}
-
 .tc{
   font-weight:100;
   font-size: 15px;
-  margin-bottom: 20px;
 }
 
 .foc{
@@ -384,6 +310,7 @@ footer{
   height: 200px;
   margin-top: 22px;
   float: left;
+
 }
 
 .appstore{
@@ -393,7 +320,6 @@ footer{
   background-repeat: no-repeat;
   background-size: 90%;
   background-image: url(../assets/images/apple-store.svg);
-  cursor: pointer;
 }
 
 .googlep{
@@ -403,7 +329,6 @@ footer{
   background-repeat: no-repeat;
   background-size: 90%;
   background-image: url(../assets/images/google-play.png);
-  cursor: pointer;
 }
 
 .microsoft{
@@ -413,7 +338,6 @@ footer{
   background-repeat: no-repeat;
   background-size: 90%;
   background-image: url(../assets/images/microsoft.png);
-  cursor: pointer;
 }
 
 .clear {
@@ -427,24 +351,20 @@ footer{
   text-align: center;
 }
 
-.linkwrs{
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
 .fbc{
-  width: 30px;
-  height: 30px;
+  line-height: 2 !important;
+  width: 40px;
+  height: 40px;
   margin-right: 33px;
   border: 1px solid #FFFFFF;
   border-radius: 50%;
   display: inline-block;
-  line-height: 2
+
 }
 
-.fa-facebook{
+.icon-facebook{
   font-size: 18px;
-  margin-top: 6px;
+  margin: 20px;
 }
 
 .instac{
@@ -454,7 +374,6 @@ footer{
   border: 1px solid #FFFFFF;
   border-radius: 50%;
   display: inline-block;
-  line-height: 2
 }
 
 .fa-instagram{
@@ -468,7 +387,6 @@ footer{
   border: 1px solid #FFFFFF;
   border-radius: 50%;
   display: inline-block;
-  line-height: 2;
 }
 
 .fa-twitter{
